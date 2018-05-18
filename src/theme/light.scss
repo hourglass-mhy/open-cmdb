@@ -1,0 +1,31 @@
+// backgroud
+$gray: #edf2f6; // body
+$white: #fff;  // 侧边栏
+$blue: #4082e6; // navbar
+
+$navbarHover: #3978D5; // navbarhover的颜色
+
+$light-gray: #f6f9fb;
+
+.custom-theme {
+	background: $gray;
+	.theme-navbar-container {
+		background: $blue;
+	}
+	.theme-layout-left {
+		background: $white;
+	}
+	.navbar-item-hover {
+		&:hover {
+            background: $navbarHover;
+        }
+	}
+	
+	.theme-bread-crumb {
+		background: $light-gray;
+	}
+	.theme-page {
+		background: $white;
+	}
+
+}
